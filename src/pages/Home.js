@@ -73,6 +73,7 @@ const Home = () => {
               display: "block",
               marginLeft: "auto",
               marginRight: "auto", // Center the button
+              marginBottom: "10px",
             }}
           >
             Start Booking

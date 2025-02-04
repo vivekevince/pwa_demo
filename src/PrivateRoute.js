@@ -6,7 +6,7 @@ const PrivateRoute = () => {
   const { isAuthenticated } = useContext(AuthContext);
   if (!isAuthenticated) {
     // If not authenticated, redirect to login page
-    return <Navigate to="/" replace />;
+    return <Navigate to="/pwa_demo" replace />;
   }
 
   // If authenticated, render the child routes

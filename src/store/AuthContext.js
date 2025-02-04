@@ -17,13 +17,13 @@ export const AuthProvider = ({ children }) => {
   const login = () => {
     setIsAuthenticated(true);
     localStorage.setItem("authToken", "dummy-token");
-    navigate("/home");
+    navigate("/pwa_demo/home");
   };
 
   const logout = () => {
     localStorage.removeItem("authToken");
     setIsAuthenticated(false);
-    navigate("/");
+    navigate("/pwa_demo");
   };
 
   // Check authentication status when app loads

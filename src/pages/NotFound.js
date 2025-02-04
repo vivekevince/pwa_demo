@@ -6,7 +6,7 @@ import { CenteredBox } from "../components/CenteredBox";
 const NotFoundPage = () => {
   const navigate = useNavigate();
   const goHome = () => {
-    navigate("/");
+    navigate("/pwa_demo");
   };
 
   return (

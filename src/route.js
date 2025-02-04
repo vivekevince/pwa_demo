@@ -10,18 +10,12 @@ export default function AppRoutes() {
   return (
     <Routes>
       {/* Public Route */}
-      <Route path="/" element={<Login />} />
-      {/* <Route path="/register" element={<Register />} /> */}
-      {/* <Route path="/register" element={<Register />} /> */}
-
+      <Route path="/pwa_demo" element={<Login />} />=
       {/* Catch-all Route for undefined route */}
       <Route path="*" element={<NotFoundPage />} />
-
       {/* Private Routes */}
       <Route element={<PrivateRoute />}>
-        <Route path="/home" element={<Home />} />
-
-        {/* Add other Private Routes inside this element as below */}
+        <Route path="/pwa_demo/home" element={<Home />} />
         {/* <Route path="/home" element={<Users />} /> */}
       </Route>
     </Routes>
