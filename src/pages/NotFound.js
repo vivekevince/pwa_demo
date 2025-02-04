@@ -12,7 +12,7 @@ const NotFoundPage = () => {
   return (
     <CenteredBox>
       <Typography variant="h3" gutterBottom>
-        404 - Page Not Found
+        {`404 :( Page Not Found`}
       </Typography>
       <Typography variant="body1" paragraph>
         The page you're looking for does not exist.
